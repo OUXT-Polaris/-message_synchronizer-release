@@ -1,0 +1,12 @@
+Source: ros-rolling-message-synchronizer
+Section: misc
+Priority: optional
+Maintainer: masaya <ms.kataoka@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-rolling-ament-cmake, ros-rolling-ament-lint-auto, ros-rolling-ouxt-lint-common, ros-rolling-rclcpp, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-message-synchronizer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-rolling-rclcpp, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Description: ROS2 package for synchronizing messages
